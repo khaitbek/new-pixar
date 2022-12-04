@@ -234,8 +234,12 @@ a {
     border-radius: 6px;
 }
 
-.services__item:nth-child(1) {
+.services__item:hover {
     background-color: var(--clr-secondary);
+}
+
+.services__item:hover>* {
+    color: #fff;
 }
 
 .services__heading {
@@ -251,9 +255,7 @@ a {
     line-height: 150%;
 }
 
-.services__item:nth-child(1)>* {
-    color: #fff;
-}
+
 
 .services__link {
     font-weight: 700;
@@ -261,7 +263,6 @@ a {
     line-height: 140%;
 
     /* identical to box height, or 28px */
-    text-decoration-line: underline;
     font-variant: small-caps;
     color: #000000;
 }
